@@ -3,6 +3,8 @@ A hook for REDCap (https://projectredcap.org/) that parses RedCap calendar and f
 
 # Instalation
 In the hooks file of your REDCap (path to this file may be set in the Control Center under General Configuration->REDCap Hooks) has to contain:
+
+
 function redcap_project_home_page ( int $project_id ) {
         include_once "hooks/REDCapCalendarCrawler.php";
 }
